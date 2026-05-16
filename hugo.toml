@@ -1,0 +1,52 @@
+baseURL = "https://keiba-ai.pages.dev/"
+locale = "ja"
+title = "競馬AI予想ラボ"
+theme = "PaperMod"
+hasCJKLanguage = true
+defaultContentLanguage = "ja"
+paginate = 10
+
+[params]
+  author = "競馬AI"
+  description = "LightGBMを使った競馬AI自動予想システムの開発・運用記録。毎週の予想結果・収支・改善点を公開中。"
+  homeInfoParams = { Title = "競馬AI予想ラボ", Content = "機械学習（LightGBM）による競馬予想システムの開発・運用記録ブログです。毎週の予想結果・収支・AIの改善点をリアルタイム公開中。" }
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  dateFormat = "2006年1月2日"
+  keywords = ["競馬AI", "競馬予想", "LightGBM", "機械学習", "競馬システム"]
+
+[params.profileMode]
+  enabled = false
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "ホーム"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "記事一覧"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "タグ"
+    url = "/tags/"
+    weight = 30
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
