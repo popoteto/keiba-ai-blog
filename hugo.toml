@@ -1,4 +1,4 @@
-baseURL = "https://keiba-ai.pages.dev/"
+baseURL = "https://keiba-ai-blog.octotowa.workers.dev/"
 locale = "ja"
 title = "競馬AI予想ラボ"
 theme = "PaperMod"
