@@ -1,6 +1,6 @@
 baseURL = "https://keiba-ai-blog.octotowa.workers.dev/"
 locale = "ja"
-title = "競馬AI予想ラボ"
+title = "octotowa競馬AI予想ラボ"
 theme = "PaperMod"
 hasCJKLanguage = true
 defaultContentLanguage = "ja"
@@ -9,7 +9,7 @@ paginate = 10
 [params]
   author = "競馬AI"
   description = "LightGBMを使った競馬AI自動予想システムの開発・運用記録。毎週の予想結果・収支・改善点を公開中。"
-  homeInfoParams = { Title = "競馬AI予想ラボ", Content = "機械学習（LightGBM）による競馬予想システムの開発・運用記録ブログです。毎週の予想結果・収支・AIの改善点をリアルタイム公開中。" }
+  homeInfoParams = { Title = "octotowa競馬AI予想ラボ", Content = "機械学習（LightGBM）による競馬予想システムの開発・運用記録ブログです。毎週の予想結果・収支・AIの改善点をリアルタイム公開中。" }
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
