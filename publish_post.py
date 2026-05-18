@@ -56,7 +56,7 @@ def git_push(message: str):
     os.chdir(BLOG_DIR)
     subprocess.run(["git", "add", "-A"], check=True)
     subprocess.run(["git", "commit", "-m", message], check=True)
-    subprocess.run(["git", "push", "origin", "main"], check=True)
+    subprocess.run(["git", "push", "origin", "master"], check=True)
     print("GitHubへpush完了。Cloudflare Pagesが自動デプロイします。")
 
 
